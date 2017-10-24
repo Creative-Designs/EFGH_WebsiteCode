@@ -31,7 +31,7 @@
 }
 .sliding-middle-out:hover:after {
 	width: 90%;
-	background: blue;
+	background: #13BBAA;
 }
 
 
@@ -125,7 +125,7 @@
 	font-size:16px;	
 }
 .navigation_style li a:hover{
-	color:#0DD495!important;
+	color:#13BBAA!important;
 }
 
 /*=====overriding navbar to remove small scroll============*/
@@ -394,7 +394,7 @@
 }
 .about_btn:hover{
 transition:.2s ease;
-background:#43e0de;
+
 }
 .hr_line{
 	height:2px;
@@ -568,7 +568,7 @@ background:#43e0de;
 	border:none;
 	border-radius:3px;
 	color:#fff;
-	padding:15px;
+	padding:10px;
 	margin:20px 0 0 10px;
 	width:100px;	
 	
@@ -654,7 +654,7 @@ background:#43e0de;
 .speciality_head_heart{
 	font-size:20px;
 	color:#fff;
-	margin:20px 0 20px 0;
+	margin:0 0 20px 0;
 	font-family:'Century Gothic';
 	font-weight:bold;
 }
