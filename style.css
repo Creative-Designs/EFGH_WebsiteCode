@@ -1,7 +1,6 @@
 @font-face{
 	font-family:'feature_font';
-	src:url('assets/fonts/Cicle Semi.ttf');
-	
+	src:url('assets/fonts/Cicle Semi.ttf');	
 }
 #top_btn{
 	color:#3ca7eb;
@@ -15,6 +14,27 @@
 	cursor:pointer;
 	display:none;
 }
+
+.sliding-middle-out {
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+}
+.sliding-middle-out:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+.sliding-middle-out:hover:after {
+	width: 90%;
+	background: blue;
+}
+
+
 .purple_background{
 		background-color:#203240;
 		padding:10px;
@@ -149,6 +169,10 @@
 	width:165px;
 }
 /*==============active part============*/
+.active_part{
+
+}
+
 .active_box{
 	padding:40px;
 }
@@ -164,19 +188,20 @@
 	
 }
 .active_para{
-	font-size:16px;
-	color:#030b0a;
+	font-size:18px;	
+	color:#484848;
 	line-height:30px;
 	margin:40px 0 0 50px;
 }
 
 /*===========readmore btn==============*/
 .read_btn{
+	width:100px;
 	background:#0290b3;
 	border:none;
-	border-radius:0;
+	border-radius:3px;
 	color:#fff;
-	padding:15px;
+	padding:10px;
 	margin:20px 0 0 55px;
 }
 /*===============grey background==============*/
@@ -358,8 +383,9 @@
 	
 }
 .about_btn{
+	width:140px;
 	border:none;
-	border-radius:0;
+	border-radius:3px;
 	background:#0290b3;
 	height:45px;
 	margin:30px 0 0 20px;
@@ -445,6 +471,7 @@ background:#43e0de;
 	color:#1B68C4;
 	transition:1s ease;
 }
+
 
 
 
@@ -539,10 +566,12 @@ background:#43e0de;
 .read_btn{
 	background:#0290b3;
 	border:none;
-	border-radius:0;
+	border-radius:3px;
 	color:#fff;
 	padding:15px;
 	margin:20px 0 0 10px;
+	width:100px;	
+	
 }/*===============grey background=================*/
 .grey_part{
 	background:#272626;
@@ -670,7 +699,7 @@ background:#43e0de;
 .img_para2{
 	font-size:16px;
 	color:#ececec;
-	margin:0 0 30px 0;
+	margin:0 0 30px 10px;
 	line-height:26px;
 }
 /*====================speck para ==============*/
@@ -678,9 +707,9 @@ background:#43e0de;
 	padding:50px 0 0 0;
 }
 .speak_head{
-	font-size:40px;
+	font-size:30px;
 	color:#484848;
-	margin:30px 0 30px 0;
+	margin:0 0 30px 0;
 	font-family:'Century Gothic';
 	font-weight:bold;
 }
@@ -697,9 +726,87 @@ background:#43e0de;
 	margin-left:auto;
 	display:block;
 	margin-right:auto;
-	width:110px;
-	padding:40px 0 20px 0;
+	width:100px;
+	float:left;
+	padding:20px 0 20px 0;
 }
+/*=============testimonial================*/
+.testimonial_para_one{
+	font-size:18px;
+	color:#242424;
+}
+.name{
+	font-size:14px;
+	color:#242424;
+	font-weight:bold;
+	margin:0 0 0 0;
+}
+.fa_icon{
+	margin:auto;
+	color:#3ca7eb;
+	font-size:20px;
+}
+
+/* ===========carousel===========*/
+
+.carousel-control.left{
+	background-image:none !important;
+	display:none;
+}
+
+.carousel-control.right{
+	background-image:none !important;
+	display:none;
+}
+.carousel-indicators li{
+	background-color:#3ca7eb !important;
+
+}
+.carousel {
+  height: 400px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 400px;
+  background: #ffff;
+}
+/*=================about_img===============*/
+.about_head{
+	
+}
+.about_img{
+	margin:30px 0 0 0;
+}
+.about_para{
+	font-size:17px;
+	color:#242424;
+	margin:20px;
+	line-height:34px;
+	
+}
+.about_btn{
+	border:none;
+	border-radius:5px;
+	background:#0290b3;
+	width:120px;
+	height:45px;
+	margin:10px 0 20px 20px;
+	color:#fff;
+	transition:.2s ease;
+}
+.about_btn:hover{
+transition:.2s ease;
+background:#43e0de;
+}
+
+
+
 
 
 
