@@ -36,31 +36,44 @@
 
 
 .purple_background{
-		background-color:#203240;
-		padding:10px;
+		background-color:#b01935;
+		
+		width:110px;
 	
 }
 .floating_div{
-	
 	border:none;
 	outline:none;
 	right:0px;
-	top:300px;
+	top:180px;
 	position:fixed;
 	z-index:9999;
 	cursor:pointer;
 	bottom:20%;
+	
 
 }
 #call_btn{
 	 background-color: Transparent;
 	 border:none;
-	 width:80px;
+
+	 margin:0 0 0 10px;
 }
 #chat_btn{
 	 background-color: Transparent;
 	 border:none;
-	 width:80px;
+
+	 margin:10px 0 0 10px;
+}
+.click_btn{
+	font-size:15px;
+	color:#fff;
+
+	
+	
+
+	
+	
 }
 
 /* ===========carousel===========*/
@@ -118,7 +131,7 @@
 	border:none;
 }
 .navigation_style{
-	margin:20px 0 0 230px;
+	margin:15px 0 0 230px;
 }
 .navigation_style li a{
 	color:#03869a!important;
@@ -140,29 +153,43 @@
 }
 /*==================banner=============*/
 .banner_img{
-	background:url('img/banner_1.jpg') no-repeat;
-	height:600px;
-	margin:30px 0 0 0;
+	background:url('img/banner_2.jpg') no-repeat;
+	height:400px;
+	margin:-10px 0 0 0;
+
 }
 /*=============box part===========*/
+.member_box{
+margin:0 0 0 100px;
+
+
+}
 .blue_box{
 	background:#056780;
 	height:250px;
-	padding:60px 50px 40px 50px;
+	width:375px;
+	
+	padding:45px 40px 30px 50px;
 	
 }
 .lightblue_box{
 	background:#029e91;
 	height:250px;
-	padding:50px 50px 40px 50px;
+	width:375px;
+	padding:40px 50px 30px 50px;
 	
 }
 .green_box{
 	background:#22c090;
 	height:250px;
-	padding:60px 50px 40px 75px;
+	width:375px;
+	padding:40px 50px 30px 75px;
+
 }
 .box_icon{
+	width:126px;
+}
+.box_icon_doc{
 	width:120px;
 }
 .box_icon1{
@@ -170,17 +197,17 @@
 }
 /*==============active part============*/
 .active_part{
-
+margin:10px 0 0 0;
 }
 
 .active_box{
-	padding:40px;
+	padding:20px;
 }
 .active_head{
 	font-size:30px;
 	color:#0e433f;
 	font-weight:bold;
-	margin:30px 0 0 0;
+	margin:20px 0 0 0;
 }
 .active_icon_img{
 	margin:40px auto;
@@ -568,9 +595,15 @@ transition:.2s ease;
 	margin:0 auto;
 }
 /*=============box part===========*/
+.member_box{
+margin:0 0 0 0!important;
+
+
+}
 .blue_box{
 	background:#056780;
 	height:250px;
+
 	
 	
 }
