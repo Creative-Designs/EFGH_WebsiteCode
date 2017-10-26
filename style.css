@@ -2,6 +2,13 @@
 	font-family:'feature_font';
 	src:url('assets/fonts/Cicle Semi.ttf');	
 }
+
+button:focus {outline:0 !important;}
+.member_font{
+	font-size:28px;
+	color:#fff;
+	margin:10px 0 0 0;	
+}
 #top_btn{
 	color:#3ca7eb;
 	background:none;
@@ -167,23 +174,22 @@ margin:0 0 0 100px;
 .blue_box{
 	background:#056780;
 	height:250px;
-	width:375px;
-	
-	padding:45px 40px 30px 50px;
+	width:375px;	
+	padding:45px 40px 30px 40px;
 	
 }
 .lightblue_box{
 	background:#029e91;
 	height:250px;
 	width:375px;
-	padding:40px 50px 30px 50px;
+	padding:45px 40px 30px 40px;
 	
 }
 .green_box{
 	background:#22c090;
 	height:250px;
 	width:375px;
-	padding:40px 50px 30px 75px;
+	padding:45px 40px 30px 40px;
 
 }
 .box_icon{
@@ -225,7 +231,7 @@ margin:10px 0 0 0;
 .read_btn{
 	width:100px;
 	background:#0290b3;
-	border:none;
+	border:none;	
 	border-radius:3px;
 	color:#fff;
 	padding:10px;
