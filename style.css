@@ -208,7 +208,7 @@ margin:10px 20px 0 0;
 	padding:20px;
 }
 .active_head{
-	font-size:30px;
+	font-size:26px;
 	color:#0e433f;
 	font-weight:bold;
 	margin:20px 0 0 0;
@@ -223,6 +223,15 @@ margin:10px 20px 0 0;
 	color:#484848;
 	line-height:30px;
 	margin:40px 0 0 50px;
+}
+.less_health{
+	background:#91D16E!important;
+}
+.less_prof{
+	background:#91D16E!important;
+}
+.less_woman{
+	background:#91D16E!important;
 }
 
 /*===========readmore btn==============*/
@@ -684,7 +693,7 @@ margin:0 0 0 0!important;
 .active_toggle_para{
 	font-size:14px;
 	color:#030b0a;
-	margin:10px 0 10px 10px!important;
+	margin:10px 0 10px 5px!important;
 }
 
 
