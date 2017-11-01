@@ -8,10 +8,14 @@ button:focus {
 }
 
 .member_font{
+
 	font-size:28px;
 	color:#fff;
 	margin:10px 0 0 0;	
 }
+  a:link{
+	  text-decoration: none;
+  }
 #top_btn{
 	color:#3ca7eb;
 	background:none;
@@ -223,15 +227,6 @@ margin:10px 20px 0 0;
 	color:#484848;
 	line-height:30px;
 	margin:40px 0 0 50px;
-}
-.less_health{
-	background:#91D16E!important;
-}
-.less_prof{
-	background:#91D16E!important;
-}
-.less_woman{
-	background:#91D16E!important;
 }
 
 /*===========readmore btn==============*/
@@ -515,11 +510,30 @@ transition:.2s ease;
 .footer_btn_part{
 	display:none;
 }
+.less_health{
+	background:#91D16E!important;
+}
+.less_prof{
+	background:#91D16E!important;
+}
+.less_woman{
+	background:#91D16E!important;
+}
 
 
 
 
 @media screen and (min-width:100px) and (max-width:767px){
+	.slideanim.slide {                  
+    visibility: visible;                  
+    animation: slide 1s;
+}
+.slideanim::after {
+    /* useful when its child elements are float:left; */
+    content: "";
+    display: table;
+    clear: both;
+}
 	#top_btn{
 	font-size:10px;
 	color:#3ca7eb;
@@ -654,6 +668,7 @@ margin:0 0 0 0!important;
 	width:75px!important;
 }
 /*==============active part============*/
+
 .active_box{
 	padding:10px 0 10px 0;
 }
@@ -693,7 +708,7 @@ margin:0 0 0 0!important;
 .active_toggle_para{
 	font-size:14px;
 	color:#030b0a;
-	margin:10px 0 10px 5px!important;
+	margin:10px 0 10px 10px!important;
 }
 
 
@@ -724,7 +739,7 @@ margin:0 0 0 0!important;
 }/*===============grey background=================*/
 .grey_part{
 	background:#272626;
-	padding:30px 20px 60px 20px !important;
+	padding:10px 20px 60px 20px !important;
 
 }
 .grey_box{
@@ -736,21 +751,25 @@ margin:0 0 0 0!important;
 	margin:20px 0 0 30px;
 }
 .heart_icon{
-
-	margin:10px auto;
+	float:left;
+	width:70px!important;
+	margin:60px 20px 60px 10px ;
 }
 .heart_icon1{
-	
-	margin:34px 0 0 0;
+	float:left;
+	width:70px!important;
+	margin:60px 20px 60px 10px ;
 }
 .heart_icon2{
-	margin:10px auto;
+	float:left;
+	width:70px!important;
+	margin:60px 20px 60px 10px ;
 }
 .heart_para{
 	color:#ffffff;
 	font-size:14px;
 	line-height:20px;
-	margin:40px 20px 0 30px;
+	margin:10px 20px 0 50px!important;
 }
 /*================feature part=================*/
 .feature_part{
@@ -785,14 +804,14 @@ margin:0 0 0 0!important;
 /*===================Speciality===============*/
 .Speciality_box{
 	background:#272626;
-	padding:50px 0 20px 0;
+	padding:15px 0 20px 0;
 	
 }
 .Speciality_head{
 	
 	font-size:30px;
 	color:#fff;
-	margin:0 0 40px 10px;
+	margin:0 0 20px 10px;
 	font-family:'Century Gothic';
 	font-weight:bold;
 }
@@ -800,7 +819,7 @@ margin:0 0 0 0!important;
 	text-align:left !important;
 	font-size:20px;
 	color:#ececec;
-	margin:0 10px 30px 15px;
+	margin:0 10px 20px 15px;
 }
 
 .speciality_head_heart{
