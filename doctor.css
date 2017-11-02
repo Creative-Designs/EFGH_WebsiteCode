@@ -4,14 +4,14 @@
 }
 .banner_img_business{
 	background:url('img/doctor_banner.jpg') no-repeat;
-	height:420px;
+	height:370px;
 	margin:-10px 0 0 0;
 
 
 }
 
 .white_part{
-	padding:50px 10px 20px 10px;
+	padding:0 10px 20px 10px;
 }
 .key_head{
 	color:#1A7FB5;
@@ -37,7 +37,7 @@ font-size:26px;
 /*==============join_part===============*/
 .join_part{
 	background:#1A7FB5;
-	margin:55px 0 0 20px;
+	margin:8px 0 0 20px;
 	width:465px;
 	padding:0 0 0 0;
 }
@@ -79,8 +79,24 @@ font-size:26px;
 
 /*==================media query===============*/
 @media screen and (min-width:100px) and (max-width:767px){
+	
+	.new_join_btn{
+		border-radius:0!important;
+		width:100%!important;
+		height:55px!important;
+		margin:0!important;
+		font-size:18px;
+	}
+	.footer_btn_part1{
+		padding:0!important;
+		background:#fff!important;
+		width:360px!important;
+	}
+	
+	
+	
 	.banner_img_business{
-	background:url('img/doctor_banner_mob.jpg') no-repeat;
+	background:url('img/doctor_banner_mob1.jpg') no-repeat;
 	height:300px;
 	margin:10px 0 0 0;
 
@@ -88,7 +104,7 @@ font-size:26px;
 	
 	
 	.white_part{
-	padding:10px 10px 20px 10px;
+	padding:5px 10px 20px 10px;
 }
 .key_head{
 	color:#1A7FB5;
@@ -114,7 +130,7 @@ font-size:26px;
 }
 .join_head{
 	
-	margin:0 50px 0 0;
+		margin:0 50px 0 0;
 	color:#fff;
 	font-size:16px;
 	font-weight:bold;
