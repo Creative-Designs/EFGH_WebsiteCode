@@ -5,7 +5,7 @@
 .banner_img_business{
 	background:url('img/banner_business.jpg') no-repeat;
 	height:380px;
-	margin:-30px 0 0 0;
+	margin:-22px 0 0 0;
 
 
 }
@@ -34,6 +34,38 @@ font-size:26px;
 	margin:30px auto!important;
 
 }
+.save_head{
+	font-size:17px;
+	color:#26D1B9;
+	font-weight:bold;
+	text-align:center!important;
+}
+.save_head1{
+	font-size:16px;
+	color:#26D1B9;
+	font-weight:bold;
+	text-align:center!important;
+}
+
+.sliding-middle-out {
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+}
+.sliding-middle-out:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+.sliding-middle-out:hover:after {
+	width: 90%;
+	background: #13BBAA;
+}
+
 /*==============join_part===============*/
 .green_background{
 

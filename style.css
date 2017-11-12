@@ -212,7 +212,7 @@ margin:10px 20px 0 0;
 	padding:20px;
 }
 .active_head{
-	font-size:26px;
+	font-size:24px;
 	color:#0e433f;
 	font-weight:bold;
 	margin:20px 0 0 0;
@@ -249,20 +249,20 @@ margin:10px 20px 0 0;
 	padding:10px 50px 0 50px;
 }
 .grey_head{
-	font-size:26px;
+	font-size:24px;
 	color:#FFF;
 	margin:0 0 0 10px;
 }
 .heart_icon{
 
-	margin:70px 0 0 50px;
+	margin:40px auto;
 }
 .heart_icon1{
 	
-	margin:34px 0 0 0;
+	margin:40px auto;
 }
 .heart_icon2{
-	margin:80px 0 0 70px;
+	margin:52px auto;
 }
 .heart_para{
 	color:#ffffff;
@@ -290,7 +290,7 @@ margin:10px 20px 0 0;
 .left_head{
 	font-size:32px;
 	color:#484848;
-	margin:70px 0 0 0;
+	margin:60px 0 0 0;
 	font-family:'feature_font';
 }
 .left_para{
@@ -308,7 +308,7 @@ margin:10px 20px 0 0;
 /*===================Speciality===============*/
 .Speciality_box{
 	background:#272626;
-	padding:50px 0 20px 0;
+	padding:50px 80px 20px 80px;
 	
 }
 .Speciality_head{
@@ -360,7 +360,7 @@ margin:10px 20px 0 0;
 
 .speciality_heart{
 	width:80px;
-	margin:0 0 0 60px;
+	margin:0 auto;
 	
 }
 
@@ -372,7 +372,7 @@ margin:10px 20px 0 0;
 .img_para2{
 	font-size:16px;
 	color:#ececec;
-	margin:0 0 60px 0;
+	margin:0 15px 60px 15px;
 	line-height:26px;
 }
 /*====================speck para ==============*/
@@ -673,14 +673,14 @@ margin:0 0 0 0!important;
 	padding:10px 0 10px 0;
 }
 .active_head{
-	font-size:16px;
+	font-size:13px;
 	color:#0e433f;
 	font-weight:bold;
-	margin:10px 0 0 0;
+	margin:10px 0 0 10px;
 }
 .active_icon_img_mom{
 	margin:10px auto;
-	width:67px!important;
+	width:90px;
 	
 	
 }
@@ -692,7 +692,7 @@ margin:0 0 0 0!important;
 }
 .active_icon_old{
 	margin:10px auto;
-	width:78px!important;
+	width:90px;
 	
 	
 }
@@ -746,9 +746,10 @@ margin:0 0 0 0!important;
 	padding:10px 0 0 0;
 }
 .grey_head{
-	font-size:26px;
+	font-size:24px;
 	color:#FFF;
-	margin:20px 0 0 30px;
+	margin:20px 0 10px 30px;
+	text-align:left!important;
 }
 .heart_icon{
 	float:left;
@@ -758,7 +759,7 @@ margin:0 0 0 0!important;
 .heart_icon1{
 	float:left;
 	width:70px!important;
-	margin:60px 20px 60px 10px ;
+	margin:60px 20px 30px 10px ;
 }
 .heart_icon2{
 	float:left;
@@ -857,13 +858,13 @@ margin:0 0 0 0!important;
 }
 
 .speciality_heart{
-	width:80px;
+	
 	margin:0 auto;
 	
 }
 
 .speciality_img{
-	width:90px;
+
 	margin:0 auto;
 
 }
@@ -1103,12 +1104,15 @@ background:#43e0de;
 	width:85px;
 }
 /*==============active part============*/
+.active_part{
+	padding:30px 0 20px 70px!important;
+}
 .active_box{
-	padding:10px 0 0 0;
+	padding:0 0 0 10px!important;
 
 }
 .active_head{
-	font-size:16px;
+	font-size:20px;
 	color:#0e433f;
 	font-weight:bold;
 	margin:10px 0 0 0;
@@ -1120,7 +1124,7 @@ background:#43e0de;
 	
 }
 .active_para{
-	font-size:13px;
+	font-size:12px;
 	color:#030b0a;
 	line-height:22px;
 	margin:10px 0 0 10px;

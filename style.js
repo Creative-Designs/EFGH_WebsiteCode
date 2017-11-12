@@ -75,7 +75,10 @@ $(".less_woman").hide();
 $(".less_prof").hide();
 $(".less_health").hide();
 
-
+//for web
+$("#woman_para_show").hide();
+$("#prof_para_show").hide();
+$("#Seniors_para_show").hide();
 
 $(".read_panel").click(function(){
 	
@@ -98,11 +101,13 @@ $(".read_panel").click(function(){
 	$("#active_toggle").slideToggle();
 	$("#active_toggle1").hide();
 	$("#active_toggle2").hide();
+	
+	//for web
+$("#woman_para_show").slideToggle();
+$("#prof_para_show").hide();
+$("#Seniors_para_show").hide();
 
 });
-
-
-
 
 $(".read_panel1").click(function(){
 	if($(".less_prof").is(':visible') ===false)
@@ -119,18 +124,15 @@ $(".read_panel1").click(function(){
 		$(".less_prof").hide();
 		$(".more_prof").show();
 	}
-	
-	
-	
-	
 	$("#active_toggle").hide();
 	$("#active_toggle1").slideToggle();
 	$("#active_toggle2").hide();
+	//for web
+	$("#prof_para_show").slideToggle();
+	$("#woman_para_show").hide();
+	$("#Seniors_para_show").hide();
 	
 });
-
-
-
 
 $(".read_panel2").click(function(){
 	
@@ -149,16 +151,17 @@ $(".read_panel2").click(function(){
 		$(".more_health").show();
 	}
 	
-	
-	
-	
-	
-	
 	$("#active_toggle").hide();
 	$("#active_toggle1").hide();
 	$("#active_toggle2").slideToggle();
+//for web
+	$("#prof_para_show").hide();
+	$("#woman_para_show").hide();
+	$("#Seniors_para_show").slideToggle();
 	
 });
+
+
 
 
 
