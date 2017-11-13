@@ -160,6 +160,21 @@ $(".read_panel2").click(function(){
 	$("#Seniors_para_show").slideToggle();
 	
 });
+//==============read less about============
+$(".read_less_about").hide();
+$(".about_para_hide").hide();
+
+$(".read_more_about").click(function(){
+	$(".read_less_about").slideToggle();
+$(".about_para_hide").slideToggle();
+$(".read_more_about").hide();
+	
+});
+$(".read_less_about").click(function(){
+	$(".read_less_about").hide();
+	$(".about_para_hide").hide();
+	$(".read_more_about").show();
+});
 
 
 

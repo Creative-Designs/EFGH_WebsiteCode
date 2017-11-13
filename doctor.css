@@ -15,7 +15,7 @@
 }
 .key_head{
 	color:#1A7FB5;
-font-family:'Century Gothic';
+font-family:'Century Gothic';  
 font-weight:bold;
 font-size:26px;
 	
@@ -78,7 +78,7 @@ font-size:26px;
 }
 
 /*==================media query===============*/
-@media screen and (min-width:100px) and (max-width:767px){
+@media screen and (min-width:100px) and (max-width:480px){
 	
 	.new_join_btn{
 		border-radius:0!important;
@@ -103,7 +103,7 @@ font-size:26px;
 }
 	
 	
-	.white_part{
+.white_part{
 	padding:5px 10px 20px 10px;
 }
 .key_head{
@@ -157,6 +157,86 @@ font-size:26px;
 	
 	
 }
+@media screen and (min-width:481px) and (max-width:767px){
+	.new_join_btn{
+		display:none;
+	}
+	.footer_btn_part1{
+		display:none;
+	}
+	.banner_img_business{
+	background:url('img/doctor_banner.jpg') no-repeat;
+	height:380px;
+	margin:-22px 0 0 0;
+
+}
+.join_part{
+		margin:0 0 0 0;
+	width:auto;
+	padding:10px 0 10px 5px;
+}
+}
+/*=============media query ipad============*/
+@media screen and (min-width:768px) and (max-width:992px){
+	.banner_img_business{
+	background:url('img/doctor_banner.jpg') no-repeat!important;
+	height:370px;
+	margin:-10px 0 0 0;
+
+}
+	
+.white_part{
+	padding:5px 10px 20px 10px;
+}
+.key_head{
+	color:#1A7FB5;
+font-family:'Century Gothic';
+font-weight:bold;
+font-size:26px;
+	
+}
+.key_para{
+	color:#3E3E3E;
+	
+}
+.white_icon{
+	margin:10px auto!important;
+
+}
+/*==============join_part===============*/
+.join_part{
+	background:#1A7FB5;
+	margin:20px 0 0 0;
+	width:auto;
+	padding:10px 0 10px 5px;
+}
+.join_head{
+	
+	margin:0 10px 0 0;
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+}
+/*=============form part=============*/
+.form_head{
+	color:#676767;
+	font-size:18px;
+	font-weight:bold;
+	margin:5px 0 5px 0;
+}
+.control_style{
+	height:46px;
+	margin:0 0 0 5px;
+}
+.login_btn_style{
+	border-radius:0!important;
+	width:150px;
+	height:50px;
+	
+	font-size:18px;
+}
+	
+	}
 
 
 
